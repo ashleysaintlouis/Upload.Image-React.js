@@ -11,10 +11,10 @@ app.listen(port,() => {
 
 const pool = new Pool(
     {
-        user: 'postgres',
+        user: 'usuario',
         host: 'localhost',
-        database: 'archive',
-        password: '15021989',
+        database: 'banco',
+        password: 'sua_senha',
         port: 5432,
     }
 );
